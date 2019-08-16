@@ -189,7 +189,7 @@ document.getElementById("t").addEventListener('click', function(e)
   url  : "http://localhost:2403/worker/" + id_mas[str] + "?_method=DELETE",
   success: function(todo) {
     alert("Запись успешно удалена");
-    location.replace("index.html");
+    location.replace("index2.html");
   }, 
   error: function(xhr) {}
  });
